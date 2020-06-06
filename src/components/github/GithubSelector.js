@@ -36,7 +36,7 @@ export const GithubSelector = ({ reactions, onSelect }) => {
 
   return (
     <div style={ styles.selector }>
-      <p style={ styles.label }>Pick your reaction</p>
+      <p style={ styles.label }>Select your reaction</p>
       <div style={ styles.divider } />
       <div style={ styles.emoji }>
         { _.map(reactions, (reaction, i) => {
